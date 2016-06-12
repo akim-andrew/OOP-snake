@@ -12,6 +12,7 @@ public class SnakeBody {
     private int snakeDirection = 39;
     public int headCoordX;
     public int headCoordY;
+    private int x;
     protected String nickname;
 
 
@@ -98,4 +99,7 @@ public class SnakeBody {
         return nickname;
     }
 
+    public int getX() {
+        return x;
+    }
 }
